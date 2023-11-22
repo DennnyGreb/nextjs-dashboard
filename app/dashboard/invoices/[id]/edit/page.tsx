@@ -20,7 +20,7 @@ export default async function Page({ params }: { params: { id: string } }) {
         breadcrumbs={[
           { label: 'Invoices', href: '/dashboard/invoices' },
           {
-            label: 'Edit Invoice',
+            label: 'Змінити донат',
             href: `/dashboard/invoices/${id}/edit`,
             active: true,
           },
